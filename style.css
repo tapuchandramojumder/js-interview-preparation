@@ -1,0 +1,8 @@
+.notification {
+  border: 1px solid orange;
+  background-color: bisque;
+  display: flex;
+  width: 200px;
+  padding: 1rem;
+  font-size: 2rem;
+}
