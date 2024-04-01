@@ -6,12 +6,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <style>
+    #rollBtn {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: block;
+      margin: 100px auto;
+      
+    }
+    #rollBtn:hover {
+      background-color: #555;
+    }
+    #resultDiv {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  </style>
   <body>
     <!-- <h2 id="timer"></h2>
     <button id="btn1">click Me</button>
     <button id="btn2">click Me</button> -->
-    <input type="search" id="search" />
-    <button id="btn3">click Me</button>
+    <!-- <input type="search" id="search" />
+    <button id="btn3">click Me</button> -->
+
+    <div>
+      <button id="rollBtn">Roll the Dice</button>
+      <h1 id="resultDiv">Roll the dice to see if you win!</h1>
+    </div>
     <script src="Functional_Programming/script.js"></script>
   </body>
 </html>
