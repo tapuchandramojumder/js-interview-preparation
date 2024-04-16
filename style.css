@@ -6,3 +6,8 @@
   padding: 1rem;
   font-size: 2rem;
 }
+
+body.dark-mode {
+  background-color: black;
+  color:white;
+}
