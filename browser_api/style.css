@@ -1,0 +1,8 @@
+
+img.lazy{
+    width: 400px;
+    height: 480px;
+    background: url("https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D") no-repeat center center;
+    object-fit: cover;
+    display: block;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>browser_api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>Browser API Page</h1>
+    <div class="container">
+        <button id="locationBtn">Get location</button>
+        <div id ="locationDisplay">
+            <h3>Your location will appear here </h3>
+        </div>
+    </div> -->
+
+    <!-- <h1>Media API Page</h1>
+    <div class="container">
+        <button id="startBtn">Get video stream</button>
+        <video id="videoBox" width="600" height="480" autoplay></video>
+        <div id="errText"></div>
+    </div> -->
+
+    <!-- <h1>Intersection Observer API</h1>
+    <div id="container1" style="width:100vw; height:100vh; margin:200px 0px 400px 0px; background-color:rgb(66, 25, 25)">
+
+    </div>
+    <div id="target-element" class="add">
+        <h2  style="width:400px; height:260px; background-color:red"></h2>
+    </div>
+    <div id="container2" style="width:100vw; height:100vh; margin:200px 0px 400px 0px; background-color:rgb(41, 22, 22)">
+        
+    </div>
+    <div id="target-element2" class="add">
+        <h2  style="width:400px; height:260px; background-color:red"></h2>
+    </div> -->
+
+    <h1>Lazy Loading</h1>
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D" >
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D" >
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image" data-src="https://images.unsplash.com/photo-1597806999047-9456837df754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTYxMjYyfHxlbnwwfHx8fHw%3D">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <img class="lazy" alt="random image">
+    <script src="./script.js"></script>
+</body>
+</html>
